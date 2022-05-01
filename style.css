@@ -1,0 +1,76 @@
+#navbar{
+    width:100%;
+    height: 80px;
+    /* border: 1px solid black; */
+    display: flex;
+    gap:80px;
+    border-radius: 30px;
+    background: darksalmon;
+}
+h1{
+    margin-left: 5px;
+    font-size: 25px;
+}
+#query{
+    width:360px;
+    height: 45px;
+    margin-top: 14px;
+    margin-left: 205px;
+    border-radius: 22px;
+    background: ghostwhite;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid ghostwhite;
+}
+h3{
+    margin: 25px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+#food{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,auto);
+    gap: 20px;
+    margin-left: 20px;
+    /* display: flex; */
+}
+.div{
+    border: 1px solid blue;
+}
+img{
+    width: 80%;
+    height: 390px;
+}
+p,p1,p2{
+    margin-left: 120px;
+    font-weight: bold;
+}
+.app{
+    margin-left: 510px;
+}
+#login{
+    margin-top: 20px;
+    margin-left: 35px;
+}
+input{
+    width: 15%;
+    height: 30px;
+    margin-top: 10px;
+}
+
+button{
+    width:10%;
+    height:40px;
+    margin-top: 10px;
+}
+form{
+    margin-top: 20px;
+    margin-left: 35px;
+}
+.h1{
+    margin-left: 50px;
+}
